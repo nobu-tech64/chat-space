@@ -9,7 +9,7 @@
 
 ### Association
 - has_many :comments
-- has_many :groups, through: groups_users
+- has_many :groups, through: :groups_users
 
 ## groupsテーブル
 |Column|Type|Options|
