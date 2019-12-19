@@ -17,7 +17,15 @@ body {
   &__user-name {
     background-color: #253141;
     height: 100px;
-  } 
+    width: 300px;
+    display: flex;
+  }
+  &__top-items {
+    background-color: white;
+    width: 260px;
+    height: 20px;
+    align-items: center;
+  }
   &__group-list {
     background-color: #2f3e51;
     height: calc(100vw - 100px);
