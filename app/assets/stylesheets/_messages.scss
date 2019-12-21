@@ -47,6 +47,18 @@ body {
   &__group-list {
     background-color: #2f3e51;
     height: calc(100vw - 100px);
+    &__set {
+      padding: 20px 20px 40px 20px;
+      &__group-name {
+        color: #ffffff;
+        font-size: 15px;
+      }
+      &__recent-message {
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 11px;
+      }
+    }
   }
 }
 
