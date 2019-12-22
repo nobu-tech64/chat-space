@@ -46,7 +46,7 @@ body {
   }
   &__group-list {
     background-color: #2f3e51;
-    height: calc(100vw - 100px);
+    height: calc(100vh - 100px);
     &__set {
       padding: 20px 20px 40px 20px;
       &__group-name {
@@ -109,7 +109,7 @@ body {
   }
   &__message-list {
     background-color: #fafafa;
-    height: calc(100vw - 100px - 90px);
+    height: calc(100vh - 100px - 90px);
     padding-left: 40px;
     &__commenter {
       padding-top: 35px;
