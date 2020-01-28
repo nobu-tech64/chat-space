@@ -47,6 +47,7 @@ body {
   &__group-list {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
+    overflow: scroll;
     &__set {
       padding: 20px 20px 40px 20px;
       &__group-name {
@@ -99,6 +100,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
         &__letter {
           color: #38aef0;
           text-decoration: none;
@@ -111,6 +113,7 @@ body {
     background-color: #fafafa;
     height: calc(100vh - 100px - 90px);
     padding-left: 40px;
+    overflow: scroll;
     &__commenter {
       padding-top: 25px;
       margin-bottom: 12px;
@@ -170,6 +173,7 @@ body {
           color: white;
           display: flex;
           align-items: center;
+          cursor: pointer;
           &__send {
             color: white;
             text-decoration: none;
