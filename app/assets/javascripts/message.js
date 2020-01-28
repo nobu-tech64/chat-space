@@ -47,7 +47,6 @@ $(function(){
     })
 
     .done(function(message){
-      console.log(message)
       var html = buildHTML(message);
       $('.chat-main__message-list').append(html);
       $('.chat-main__message-list').animate({ scrollTop: $('.chat-main__message-list')[0].scrollHeight});
