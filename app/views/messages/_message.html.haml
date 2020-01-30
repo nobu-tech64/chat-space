@@ -7,4 +7,4 @@
   - if message.content?
     = message.content
   - else
-    = message.image
+    = image_tag message.image.url, class: '.chat-main__message-list__image' if message.image.present?
