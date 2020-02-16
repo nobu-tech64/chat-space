@@ -1,4 +1,4 @@
-.chat-main__message-list__commenter
+.chat-main__message-list__commenter{data: {message: {id: message.id}}}
   .chat-main__message-list__commenter__name
     = message.user.name
   .chat-main__message-list__commenter__time
@@ -7,4 +7,4 @@
   - if message.content?
     = message.content
   - else
-    = image_tag message.image.url, class: '.chat-main__message-list__image' if message.image.present?
+    = image_tag message.image.url, class: ".chat-main__message-list__image" if message.image.present?
