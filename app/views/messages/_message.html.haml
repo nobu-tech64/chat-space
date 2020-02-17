@@ -2,7 +2,7 @@
   .chat-main__message-list__commenter__name
     = message.user.name
   .chat-main__message-list__commenter__time
-    = message.created_at.strftime("%Y年%m月%d日 %H時%M分")
+    = message.created_at.to_s
 .chat-main__message-list__content
   - if message.content?
     = message.content
